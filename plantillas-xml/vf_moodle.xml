@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="truefalse">
+		<name>
+			<text><![CDATA[<p>Verdadero o Falso</p>]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<p>Seleccione la oraci&oacute;n correcta</p>]]></text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text></text>
+		</generalfeedback>
+		<defaultgrade>1.0000000</defaultgrade>
+		<penalty>0.3333333</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100" format="moodle_auto_format">
+			<text>true</text>
+			<feedback format="html">
+				<text><![CDATA[<p>¡Qué máquina!</p>]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="moodle_auto_format">
+			<text>false</text>
+			<feedback format="html">
+				<text>¡Debes fixarte ben!</text>
+			</feedback>
+		</answer>
+	</question>
+
+</quiz>

@@ -1,0 +1,5 @@
+¿Cuál es el resultado de la siguiente ecuación? Ecuación: \(6x = 25 + 1x\)
+5
+10
+30
+27

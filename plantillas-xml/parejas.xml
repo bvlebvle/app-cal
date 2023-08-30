@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="matching">
+		<name>
+			<text><p>Emparejamiento</p></text>
+		</name>
+		<questiontext format="html">
+			<textx><p>Encuentre la pareja</p></text>
+		</questiontext>
+		<subquestion format="html">
+			<text><p>Suma</p></text>
+			<answer>
+				<text><p>Signo: +</p></text>
+			</answer>
+		</subquestion>
+		<subquestion format="html">
+			<text><p>Resta</p></text>
+			<answer>
+				<text><p>Signo: -</p></text>
+			</answer>
+		</subquestion>
+		<subquestion format="html">
+			<text><p>Multiplicación</p></text>
+			<answer>
+				<text><p>Signo: x</p></text>
+			</answer>
+		</subquestion>
+		<subquestion format="html">
+			<text><p>División</p></text>
+			<answer>
+				<text><p>Signo: /</p></text>
+			</answer>
+		</subquestion>
+	</question>
+</quiz>

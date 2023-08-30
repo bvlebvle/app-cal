@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="truefalse">
+		<questiontext format="html">
+			<text id="vf-1">El perímetro de una circunferencia es dos veces la multiplicación de su radio por pi</text>
+		</questiontext>
+		<answer fraction="100">
+			<text>Verdadero</text>
+		</answer>
+		<answer fraction="0">
+			<text>Falso</text>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<questiontext format="html">
+			<text id="vf-2">El volumen de un cubo es su lado elevado a dos</text>
+		</questiontext>
+		<answer fraction="0">
+			<text>Verdadero</text>
+		</answer>
+		<answer fraction="100">
+			<text>Falso</text>
+		</answer>
+	</question>
+</quiz>

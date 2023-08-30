@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="multichoice">
+		<name>
+			<text><p>Selección múltiple, múltiples respuestas</p></text>
+		</name>
+		<questiontext format="html">
+			<text id="pregunta">¿Cuál o cuáles figuras están en 2D?</text>
+		</questiontext>
+		<answer fraction="0.00000" format="html">
+			<text id="respuesta-1">Cubo</text>	
+		</answer>
+		<answer fraction="33.33333" format="html">
+			<text id="respuesta-2">Circunferencia</text>
+		</answer>
+		<answer fraction="33.33333" format="html">
+			<text id="respuesta-3">Triangulo</text>
+		</answer>
+		<answer fraction="0.00000" format="html">
+			<text id="respuesta-4">Paralelepipedo</text>
+		</answer>
+		<answer fraction="33.33333" format="html">
+			<text>Cuadrado</text>
+		</answer>
+	</question>
+</quiz>

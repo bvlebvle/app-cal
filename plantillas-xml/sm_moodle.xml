@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[<p>Selección múltiple, múltiples respuestas</p>]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<p>&iquest;Cual o cuales figuras est&aacute;n en 2D?</p>]]></text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text></text>
+		</generalfeedback>
+		<defaultgrade>1.0000000</defaultgrade>
+		<penalty>0.3333333</penalty>
+		<hidden>0</hidden>
+		<single>false</single>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>abc</answernumbering>
+		<correctfeedback format="html">
+			<text><![CDATA[<p>¡Nivel pro!</p>]]></text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text><![CDATA[<p>¡Debes prestar más atención!</p>]]></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text><![CDATA[<p>¡No olvides revisar bien los errores para mejorar!</p>]]></text>
+		</incorrectfeedback>
+		<shownumcorrect/>
+		<answer fraction="0.00000" format="html">
+			<text><![CDATA[<p>Cubo</p>]]></text>
+			<feedback format="html">
+				<text></text>
+			</feedback>
+		</answer>
+
+		<answer fraction="50.00000" format="html">
+			<text><![CDATA[<p>Circunferencia</p>]]></text>
+			<feedback format="html">
+				<text></text>
+			</feedback>
+		</answer>
+
+		<answer fraction="50.00000" format="html">
+			<text><![CDATA[<p>Triangulo</p>]]></text>
+			<feedback format="html">
+				<text></text>
+			</feedback>
+		</answer>
+
+		<answer fraction="0.00000" format="html">
+			<text><![CDATA[<p>Paralelepipedo</p>]]></text>
+			<feedback format="html">
+				<text></text>
+			</feedback>
+		</answer>
+
+		<answer fraction="0.00000" format="html">
+			<text><![CDATA[<p>Cuadrado</p>]]></text>
+			<feedback format="html">
+				<text></text>
+			</feedback>
+		</answer>
+
+	</question>
+
+</quiz>

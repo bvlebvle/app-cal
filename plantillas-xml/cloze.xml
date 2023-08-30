@@ -1,0 +1,39 @@
+<quiz>
+  <question type="cloze">
+    <name>
+      <text>Rellena los huecos</text>
+    </name>
+    <questiontext format="html">
+      <text>Completa la siguiente frase: El río más largo del mundo es el [[1:SHORTANSWER:=Nilo]], y el segundo más largo es el [[2:SHORTANSWER:=Amazonas]].</text>
+    </questiontext>
+    <answer fraction="100">
+      <text>Nilo</text>
+    </answer>
+    <answer fraction="100">
+      <text>Amazonas</text>
+    </answer>
+  </question>
+</quiz>
+
+
+<question type="cloze">
+<name>
+<text>Embedded answers (cloze) test</text>
+</name>
+<questiontext format="html">
+   <text><![CDATA[<p>Match the following cities with the correct state:&nbsp;</p>
+      <p>* Charlotte: {1:MULTICHOICE:=North Carolina#OK~Georgia#Wrong}&nbsp;</p>
+      <p>* Jacksonville: {1:MULTICHOICE:Arizona#Wrong~%100%Florida#OK}&nbsp;</p>
+      <p>* Cleveland: {1:MULTICHOICE:=Ohio#OK~Kentucky#Wrong}&nbsp;</p>
+      <p>* Green Bay: {1:MULTICHOICE:%0%California#Wrong~=Wisconsin#OK}&nbsp;</p>
+      <p>The capital of Wales is {1:SHORTANSWER:%100%Cardiff#Congratulations!
+            ~%50%Swansea#No, that is the second largest city in Wales (after Cardiff).~*#Wrong answer. 
+            The capital of Wales is Cardiff, of course.}.<br></p>]]>
+   </text>
+</questiontext>
+<generalfeedback format="html">
+   <text></text>
+</generalfeedback>
+<penalty>0.3333333</penalty>
+<hidden>0</hidden>
+</question>

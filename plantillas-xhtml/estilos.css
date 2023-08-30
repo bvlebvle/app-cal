@@ -1,0 +1,57 @@
+/* estilos.css */
+body {
+    background-color: #fffae5;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'; 
+	margin: 30px; 
+	padding: 10px;
+	
+
+}
+
+h1 {
+    color: #007f5f;
+	margin-bottom: 40px;
+}
+.box{
+	border-radius: 10px;
+	margin: 15px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 2px #888888;
+
+}
+.answer{
+	border: 1px solid #000000;
+	width: 500px;
+	margin: 8px;
+	padding: 5px;
+	transition: box-shadow 0.3s;
+	cursor: pointer;
+
+}
+.answer:hover{
+	box-shadow: 2px 2px 2px #888888;
+}
+.answer:active{
+	background-color: #007f5f;
+	color: #ffffff;
+}
+.questiontext{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+ul {
+	list-style-type: lower-alpha;
+	padding-left: 20px;
+}
+.subquestion{
+	padding: 10px;
+	font-size: 15px;
+}
+.styled-image {
+	max-width: 15%;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	
+  }

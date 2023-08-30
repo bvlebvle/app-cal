@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Quiz escolar</title>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
+	</head>
+	<body>
+		<h1>Quiz escolar</h1>
+		<h2>Plantilla selección múltiple con múltiples respuestas correctas</h2>
+		<div class="quiz">
+			<div class="question" data-type="multichoice">
+				<div class="questiontext" data-format="html">
+					<div class="text">¿Cuál o cuáles figuras están en el plano \(x\) e \(y\)?</div>
+				</div>
+				<div class="generalfeedback" data-format="html"><div class="text">Feedback general</div></div>
+				<div class="correctfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es correcta</div></div>
+				<div class="partiallycorrectfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es medianamente correccta</div></div>
+				<div class="incorrectfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es incorrecta</div></div>
+				<ul>
+					<li>
+						<div class="answer" data-format="html" data-fraction="25">
+							<div class="text">Cuadrado</div>
+							<div class="feedback">Feedback cuando seleccionan esta respuesta</div>
+						</div>
+					</li>
+					<li>
+						<div class="answer" data-format="html" data-fraction="25">
+							<div class="text">Triángulo</div>
+							<div class="feedback">Feedback cuando seleccionan esta respuesta</div>
+						</div>
+					</li>
+					<li>
+						<div class="answer" data-format="html" data-fraction="25">
+							<div class="text">Trapecio</div>
+							<div class="feedback">Feedback cuando seleccionan esta respuesta</div>
+						</div>
+					</li>
+					<li>
+						<div class="answer" data-format="html" data-fraction="25">
+							<div class="text">Circunferencia</div>
+							<div class="feedback">Feedback cuando seleccionan esta respuesta</div>
+						</div>
+					</li>
+					<li>
+						<div class="answer" data-format="html" data-fraction="0">
+							<div class="text">Paralelepipedo</div>
+							<div class="feedback">Feedback cuando seleccionan esta respuesta</div>
+						</div>
+					</li>
+				</ul>
+				<!-- Las alternativas correctan deben sumar 100, el valor de especifica en el atributo data-fraction-->
+			</div>
+		</div>
+	</body>
+</html>

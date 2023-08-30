@@ -1,0 +1,49 @@
+<shuffleanswers>true</shuffleanswers>  --> para dejar las respuestas sin un orden fijo
+<text><![CDATA[]]></text>  --> para poner caracteres especiales sin preocuparse por el formato
+<answernumbering>abc</answernumbering> --> para poner las respuestas en orden alfabetico, puede ser 123
+<selecttype>ALL</selecttype> --> para que se seleccionen todas las respuestas
+cuando son varias respuestas correctas deben sumar 100 entre todas las respuestas correctas
+
+
+---------------------------
+
+27/08
+
+TAREAS
+1. Averigua cómo configurar MathJax para maximizar su compatibilidad con LaTeX (estilos AMS).
+
+Agregar esta extensión 
+<script type="text/javascript" async
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+Agregar el siguiente código justo después del código de incorporación de MathJax:
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      extensions: ["TeX-AMS-MML_HTMLorMML"],
+      TeX: {
+         extensions: ["AMSmath.js", "AMSsymbols.js"],
+         equationNumbers: { autoNumber: "AMS" }
+      }
+   });
+</script> --> tira error
+
+documentación : https://en.wikibooks.org/wiki/LaTeX/Mathematics
+https://docs.mathjax.org/en/v2.7-latest/configuration.html
+
+Lo único que no funcionó fueron las tablas :c
+
+
+2. Prepara un ejemplo de pregunta con imágenes en el enunciado; y una de emparejamiento con imágenes en las respuestas.
+
+- archivo llamado sm_imagenes.xhtml
+- archivo llamado emparejamiento_imagenes.xhtml
+
+3. Busca ejemplos de preguntas de tipo cloz (llenar huecos) en Moodle XML.
+
+
+4. Estudia las restricciones para LaTeX que impone MathJax
+
+
+Observaciones:
+- Plantilla numérica sacarle el <ul></ul> puesto que es solo un campo de texto

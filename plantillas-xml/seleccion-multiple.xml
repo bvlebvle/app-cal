@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="multichoice">
+		<name>
+			<text><p>Selección múltiple</p></text>
+		</name>
+		<questiontext format="html">
+			<text id="pregunta"></text>
+		</questiontext>
+		<answer fraction="100">
+			<text id="respuesta-correcta"></text>
+		</answer>
+		<answer fraction="0">
+			<text id="respuesta-incorrecta-1"></text>
+		</answer>
+		<answer fraction="0">
+			<text id="respuesta-incorrecta-2"></text>
+		</answer>
+		<answer fraction="0">
+			<text id="respuesta-incorrecta-3"></text>
+		</answer>
+	</question>
+</quiz>

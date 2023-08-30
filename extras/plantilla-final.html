@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--Este es un comentario y no sera tomado en cuenta por el navegador -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head>
+		<title>Preguntas</title>
+		<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+	</head>
+	<body>
+		<h1>Quiz escolar</h1>
+
+		<quiz>
+			<question type="multichoice">
+				<name>
+					<text><p>Selección múltiple</p></text>
+				</name>
+				<questiontext format="html">
+					<text id="pregunta"></text>
+				</questiontext>
+				<answer fraction="100">
+					<text id="respuesta-correcta"></text>
+				</answer>
+				<answer fraction="0">
+					<text id="respuesta-incorrecta-1"></text>
+				</answer>
+				<answer fraction="0">
+					<text id="respuesta-incorrecta-2"></text>
+				</answer>
+				<answer fraction="0">
+					<text id="respuesta-incorrecta-3"></text>
+				</answer>
+			</question>
+		</quiz>
+		<quiz>
+			<question type="matching">
+				<name>
+					<text><p>Emparejamiento</p></text>
+				</name>
+				<questiontext format="html">
+					<text>Encuentre la pareja</text>
+				</questiontext>
+				<subquestion format="html">
+					<text>Suma</text>
+					<answer>
+						<text>+</text>
+					</answer>
+				</subquestion>
+				<subquestion format="html">
+					<text>Resta</text>
+					<answer>
+						<text>-</text>
+					</answer>
+				</subquestion>
+				<subquestion format="html">
+					<text>Multiplicación</text>
+					<answer>
+						<text>x</text>
+					</answer>
+				</subquestion>
+				<subquestion format="html">
+					<text>División</text>
+					<answer>
+						<text>/</text>
+					</answer>
+				</subquestion>
+			</question>
+		</quiz>
+		<quiz>
+			<name>
+				<text><p>Verdadero o falso</p></text>
+			</name>
+			<question type="truefalse">
+				<questiontext format="html">
+					<text>El perímetro de una circunferencia es dos veces la multiplicación de su radio por pi</text>
+				</questiontext>
+				<answer fraction="100">
+					<text>Verdadero</text>
+				</answer>
+				<answer fraction="0">
+					<text>Falso</text>
+				</answer>
+			</question>
+			<question type="truefalse">
+				<questiontext format="html">
+					<text>El volumen de un cubo es su lado elevado a dos</text>
+				</questiontext>
+				<answer fraction="0">
+					<text>Verdadero</text>
+				</answer>
+				<answer fraction="100">
+					<text>Falso</text>
+				</answer>
+			</question>
+		</quiz>
+		<quiz>
+			<question type="multichoice">
+				<name>
+					<text><p>Selección múltiple, múltiples respuestas</p></text>
+				</name>
+				<questiontext format="html">
+					<text>¿Cuál o cuáles figuras están en 2D?</text>
+				</questiontext>
+				<answer fraction="0.00000" format="html">
+					<text>Cubo</text>
+				</answer>
+				<answer fraction="33.33333" format="html">
+					<text>Circunferencia</text>
+				</answer>
+				<answer fraction="33.33333" format="html">
+					<text>Triangulo</text>
+				</answer>
+				<answer fraction="0.00000" format="html">
+					<text>Paralelepipedo</text>
+				</answer>
+				<answer fraction="33.33333" format="html">
+					<text>Cuadrado</text>
+				</answer>
+			</question>
+		</quiz>
+
+		<script>
+			fetch("pregunta_salida.txt")
+				.then((response) => response.text())
+				.then((text) => {
+					const lineas = text.split("\n");
+					const pregunta = lineas[0];
+					const respuestaCorrecta = lineas[1];
+					const respuestaIncorrecta1 = lineas[2];
+					const respuestaIncorrecta2 = lineas[3];
+					const respuestaIncorrecta3 = lineas[4];
+
+					document.getElementById("pregunta").textContent = pregunta;
+					document.getElementById("respuesta-correcta").textContent = respuestaCorrecta;
+					document.getElementById("respuesta-incorrecta-1").textContent = respuestaIncorrecta1;
+					document.getElementById("respuesta-incorrecta-2").textContent = respuestaIncorrecta2;
+					document.getElementById("respuesta-incorrecta-3").textContent = respuestaIncorrecta3;
+				})
+				.catch((error) => console.error("Error:", error));
+		</script>
+	</body>
+</html>

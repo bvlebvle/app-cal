@@ -1,0 +1,22 @@
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Pregunta con imagen</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál de las siguientes opciones es correcta?</p><p><img src="ruta_de_la_imagen.jpg" alt="Imagen" /></p>]]></text>
+    </questiontext>
+    <image>
+      <file name="ruta_de_la_imagen.jpg" />
+    </image>
+    <answer fraction="0">
+      <text><![CDATA[Opción incorrecta 1]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Opción incorrecta 2]]></text>
+    </answer>
+    <answer fraction="100">
+      <text><![CDATA[Opción correcta]]></text>
+    </answer>
+  </question>
+</quiz>
