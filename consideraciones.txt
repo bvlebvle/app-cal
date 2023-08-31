@@ -44,6 +44,9 @@ Lo único que no funcionó fueron las tablas :c
 
 4. Estudia las restricciones para LaTeX que impone MathJax
 
+5. LaTeX to SVG
+
+https://www.latex4technics.com/
 
 Observaciones:
 - Plantilla numérica sacarle el <ul></ul> puesto que es solo un campo de texto
