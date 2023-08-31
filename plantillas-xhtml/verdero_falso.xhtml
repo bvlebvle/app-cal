@@ -11,24 +11,54 @@
 		<h2>Plantilla verdadero o falso</h2>
 		<div class="quiz">
 			<div class="question" data-type="truefalse">
-				<div class="questiontext">El área de una circunferencia se calcula como \(A = \pi r^2\).</div>
+				<div class="questiontext" data-format="html">
+					<div class="text">El área de una circunferencia se calcula como \(A = \pi r^2\).</div>
+				</div>
+
 				<div class="generalfeedback" data-format="html"><div class="text">Feedback general</div></div>
 				<div class="correctfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es correcta</div></div>
 				<div class="partiallycorrectfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es medianamente correccta</div></div>
 				<div class="incorrectfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es incorrecta</div></div>
 				<ul>
-					<li><div class="answer" data-fraction="100">Verdadero</div></li>
-					<li><div class="answer" data-fraction="0">Falso</div></li>
+					<li>
+						<div class="answer" data-format="html" data-fraction="100">
+							<div class="text">Verdadero</div>
+							<div class="feedback">Feedback cuando seleccionan esta respuesta</div>
+						</div>
+					</li>
+					<li>
+						<div class="answer" data-format="html" data-fraction="0">
+							<div class="text">Falso</div>
+							<div class="feedback">Feedback cuando seleccionan esta respuesta</div>
+						</div>
+					</li>
 				</ul>
 			</div>
 			<div class="question" data-type="truefalse">
-				<div class="questiontext">El volumen de un cubo se calcula como \(V = a^2\), siendo \(a\) el valor del lado.</div>
+				<div class="questiontext" data-format="html">
+					<div class="text">El volumen de un cubo se calcula como \(V = a^2\), siendo \(a\) el valor del lado.</div>
+				</div>
+
+				<div class="generalfeedback" data-format="html"><div class="text">Feedback general</div></div>
+				<div class="correctfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es correcta</div></div>
+				<div class="partiallycorrectfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es medianamente correccta</div></div>
+				<div class="incorrectfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es incorrecta</div></div>
+
 				<ul>
-					<li><div class="answer" data-fraction="0">Verdadero</div></li>
-					<li><div class="answer" data-fraction="100">Falso</div></li>
+					<li>
+						<div class="answer" data-format="html" data-fraction="0">
+							<div class="text">Verdadero</div>
+							<div class="feedback">Feedback cuando seleccionan esta respuesta</div>
+						</div>
+					</li>
+					<li>
+						<div class="answer" data-format="html" data-fraction="100">
+							<div class="text">Falso</div>
+							<div class="feedback">Feedback cuando seleccionan esta respuesta</div>
+						</div>
+					</li>
 				</ul>
 			</div>
-
 			<!-- Las alternativas correctan deben sumar 100, el valor de especifica en el atributo data-fraction-->
 		</div>
 	</body>
