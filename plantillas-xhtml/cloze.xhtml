@@ -11,8 +11,14 @@
 		<h2>Plantilla de respuesta incrustada</h2>
 		<div class="quiz">
 			<div class="question" data-type="cloze">
-				<div class="questiontext">Completa la siguiente frase: El río más largo del mundo es el [[1:SHORTANSWER:=Nilo]], y el segundo más largo es el [[2:SHORTANSWER:=Amazonas]].</div>
+				<div class="questiontext">
+					Completa la siguiente frase: El río más largo del mundo es el [[1:MULTICHOICE:=Nilo~Amazonas~Villarrica]], y el segundo más largo es el [[1:MULTICHOICE:=Amazonas~Nilo~Villarrica]].
+					Un lago de Chile es [[3:MULTICHOICE:=Villarrica~Amazonas~Nilo]]
+				</div>
 
+				<!-- [[1:MULTICHOICE:=Nilo (RESPUESTA CORRECTA DESPUES DE =) 
+					~Amazonas~Villarrica (RESP INCORRECTA DESPUES DE ~)
+					]]-->
 				<div class="generalfeedback" data-format="html"><div class="text">Feedback general</div></div>
 				<div class="correctfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es correcta</div></div>
 				<div class="partiallycorrectfeedback" data-format="html"><div class="text">Feedback cuando la respuesta es medianamente correccta</div></div>
@@ -21,16 +27,7 @@
 				<ol>
 					<li><div class="answer" data-fraction="100">Nilo</div></li>
 					<li><div class="answer" data-fraction="100">Amazonas</div></li>
-				</ol>
-			</div>
-		</div>
-
-		<div class="quiz">
-			<div class="question" data-type="cloze">
-				<div class="questiontext">Completa la siguiente frase: El río más largo del mundo es el [[1:SHORTANSWER:=Nilo]], y el segundo más largo es el [[2:SHORTANSWER:=Amazonas]].</div>
-				<ol>
-					<li><div class="answer" data-fraction="100">Nilo</div></li>
-					<li><div class="answer" data-fraction="100">Amazonas</div></li>
+					<li><div class="answer" data-fraction="100">Villarrica</div></li>
 				</ol>
 			</div>
 		</div>
